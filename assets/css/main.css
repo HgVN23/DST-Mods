@@ -18,7 +18,7 @@
 /*	outline: 1px solid blue;*/
 }
 body {
-	background-image: url(https://wallpapercave.com/wp/wp4407857.png);
+	background-image: url(../media/image/background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -42,7 +42,7 @@ header,
 	align-items: center;
 }
 header {
-	background-image: url(https://wallpapercave.com/dwp2x/wp2237088.png);
+	background-image: url(../media/image/header.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-y: top;
@@ -53,7 +53,7 @@ header {
 	z-index: 1;
 }
 .logo {
-	content: url(https://static.wikia.nocookie.net/dont-starve-game/images/7/7d/Gears.png/revision/latest);
+	content: url(../media/image/logo.png);
 	width: 3rem;
 	height: 3rem;
 }
@@ -82,7 +82,7 @@ a:hover {
 	justify-items: center;
 }
 .group {
-	background-image: url(https://i.pinimg.com/originals/2d/37/8e/2d378eac82bcdb7c4b0b12b576f0edab.jpg);
+	background-image: url(../media/image/sign.png);
 	background-repeat: no-repeat;
 	background-size: auto;
 	font-size: 3rem;
@@ -95,7 +95,7 @@ section,
 	height: 10rem;
 }
 section {
-	background-image: url(https://static.wikia.nocookie.net/dont-starve-game/images/2/2c/Forest_Turf_Texture.png/revision/latest?cb=20160721211802);
+	background-image: url(../media/image/grass.png);
 	border: var(--border);
 	display: flex;
 	margin: 1rem auto;
