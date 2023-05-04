@@ -1,0 +1,140 @@
+@font-face {
+	font-family: dst;
+	src: url(../fonts/belisa_plumilla.ttf);
+}
+:root {
+	--border: 2px solid #525252;
+	--bg: #171717;
+	--hover-color: #1d4ed8;
+	--bg-main: #262626;
+}
+* {
+	scroll-behavior: smooth;
+	user-select: none;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: white;
+/*	outline: 1px solid blue;*/
+}
+body {
+	background-image: url(https://wallpapercave.com/wp/wp4407857.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: var(--bg-main);
+	font-family: sans-serif;
+}
+::-webkit-scrollbar {
+	background-color: var(--bg-main);
+	width: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--bg);
+	border: var(--border);
+}
+::-webkit-scrollbar-thumb:hover {
+	border: 2px solid var(--hover-color);
+}
+header,
+.inHeader {
+	display: flex;
+	align-items: center;
+}
+header {
+	background-image: url(https://wallpapercave.com/dwp2x/wp2237088.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: top;
+	border-bottom: var(--border);
+	justify-content: space-evenly;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.logo {
+	content: url(https://static.wikia.nocookie.net/dont-starve-game/images/7/7d/Gears.png/revision/latest);
+	width: 3rem;
+	height: 3rem;
+}
+.title,
+a {
+	font-size: 2rem;
+}
+.title {
+	margin: 1rem .5rem;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+.client,
+.server {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+}
+.group {
+	background-image: url(https://i.pinimg.com/originals/2d/37/8e/2d378eac82bcdb7c4b0b12b576f0edab.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	font-size: 3rem;
+	margin: 1rem auto;
+	padding: 1rem .3rem .5rem .6rem;
+}
+section,
+.click {
+	width: 50rem;
+	height: 10rem;
+}
+section {
+	background-image: url(https://static.wikia.nocookie.net/dont-starve-game/images/2/2c/Forest_Turf_Texture.png/revision/latest?cb=20160721211802);
+	border: var(--border);
+	display: flex;
+	margin: 1rem auto;
+}
+img {
+	width: 10rem;
+	height: 10rem;
+	border-right: var(--border);
+	-webkit-user-drag: none;
+}
+h1,
+p {
+	width: fit-content;
+	margin: 1rem;
+	font-size: 2rem;
+	word-break: break-word;
+}
+h1 {
+	border-bottom: var(--border);
+	padding-bottom: .3rem;
+}
+p {
+	font-size: 1rem;
+}
+.click {
+	position: absolute;
+}
+section:hover,
+section:hover img,
+section:hover h1 {
+	border-color: white;
+}
+
+
+
+header,
+.group,
+h1 {
+	font-family: dst;
+	letter-spacing: .4rem;
+	font-weight: bold;
+}
