@@ -50,20 +50,44 @@ const client = [
 	{
 		img: '268346059250042358/3055010A4D426087101BE9B5857C68222A6BD761',
 		name: 'Waypoint',
-		desc: 'Đánh dấu vị trí',
+		desc: 'Đánh dấu vị trí và có thể chọn điểm đã đánh dấu để nhân vật tự động đi đến',
 		link: '714735102'
 	},
 	{
-		img: '945097009995591078/9AE4B3EA71EB1D62B42E90087E404357F79687F1',
-		name: 'Skins extender',
-		desc: 'Tự động mở quà Skin khi đang chơi',
-		link: '1653324376'
+		img: '862863290081450476/077C80FCB098FE30D72EE0459E568DF5047CE8B6',
+		name: 'Fast Equipment',
+		desc: 'Thêm nút và phím tắt để trang bị nhanh',
+		link: '1180681495'
+	},
+	{
+		img: '97221457573722797/3A2C1A3F597B75C29E8C8D0EC8802A661A9D37E7',
+		name: 'Map Travel',
+		desc: 'Chuột phải trên Map để tự động đến điểm đó (Nếu quãng đường xa mất 1 lúc nhân vật mới di chuyển) (Cần tải thêm Mod Trailblazer)',
+		link: '808661510'
+	},
+	{
+		img: '97221552644614340/F084EE8482A53467970D980BE5940D4D9D4E3F4F',
+		name: 'Trailblazer',
+		desc: 'API tìm đường',
+		link: '810372558'
+	},
+	{
+		img: '842586141062509110/7AD96F79FC573DF2C99E8AD6FB10001CFAFCD3EE',
+		name: 'Show Nicknames',
+		desc: 'Hiện tên Player',
+		link: '956206484'
 	},
 	{
 		img: '788608976947075898/D14686E585BB764DD787F22F5334ACF73FF25B82',
 		name: 'Zoom+',
 		desc: 'Lăn chuột Zoom màn hình gần vào hoặc ra xa',
 		link: '1781410139'
+	},
+	{
+		img: '945097009995591078/9AE4B3EA71EB1D62B42E90087E404357F79687F1',
+		name: 'Skins extender',
+		desc: 'Tự động mở quà Skin khi đang chơi',
+		link: '1653324376'
 	},
 	{
 		img: '1836913354010815854/0686A58C0B3AB2FF8502B19483705868E41189E9',
